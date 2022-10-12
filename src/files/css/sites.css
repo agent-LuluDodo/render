@@ -1,0 +1,93 @@
+/* Custom Font */
+@font-face {
+  font-family: "Calibri";
+  src: url("../fonts/Calibri.woff") format("woff");
+}
+
+/* General Stuff */
+body {
+  margin: 0;
+  margin-top: 70px;
+  background-color: #161C21;
+}
+
+/* Header */
+.header {
+  position: fixed;
+  height: 60px;
+  width: 100%;
+  z-index: 1000;
+  background: #2D3943;
+  color: #F0F0F0;
+  font-size: 30px;
+  box-shadow: 0 2px 4px #000000;
+  top: 0;
+  bottom: 0;
+}
+
+.logo {
+    position: absolute;
+    z-index: 1001;
+    left: 5px;
+    bottom: 0;
+    height: 100%;
+}
+
+/* Links to parts of the Website */
+.site {
+  margin: 10px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.site-template {
+  z-index: 0;
+  opacity: 1;
+  width: 100%;
+}
+
+/* Hover Effects */
+.site-link .site-template-hover {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  display: block;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.site-link:hover .site-template-hover {
+  opacity: 1.0;
+  display: block;
+}
+
+/* Formating */
+.site-logo {
+  position: absolute;
+  bottom: 10.25%;
+  right: 38.5%;
+  width: 23%;
+  height: 41%;
+  z-index: 2;
+}
+
+.site-name {
+  position: absolute;
+  bottom: 62%;
+  right: 8.25%;
+  width: 83.5%;
+  height: 28%;
+  text-align: center;
+  z-index: 2;
+  font-family: Calibri, sans-serif;
+  font-size: 6vw;
+  color: #F0F0F0;
+}
+
+/* No Footer */
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}
