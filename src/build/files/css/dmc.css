@@ -107,6 +107,7 @@ body {
 }
 
 .icon {
+    position: absolute;
     height: 10vw;
     width: 10vw;
     left: 1vw;
@@ -114,8 +115,8 @@ body {
 }
 
 .text {
-    width: 69%;
     position: absolute;
+    width: 69%;
     left: 12vw;
     top: 1.25vw;
 }
