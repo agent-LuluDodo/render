@@ -134,17 +134,17 @@ body {
     width: 15%;
     left: 34vw;
     top: 9.25vw;
-    color: blue;
+    color: lightgreen;
     text-decoration: none;
 }
 
 
 .download:hover {  
-    color: darkblue;
+    color: green;
 }
 
 .download:active {
-    color: blue;
+    color: lightgreen;
 }
 
 .title {
