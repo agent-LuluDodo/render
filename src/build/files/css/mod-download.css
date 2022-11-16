@@ -126,6 +126,7 @@ body {
     width: 50%;
     left: 12vw;
     top: 9.25vw;
+    color: gray;
 }
 
 .download {  
@@ -151,4 +152,5 @@ body {
     margin-bottom: 1vw;
     margin-left: 0;
     margin-right: 0;
+    color: skyblue;
 }
