@@ -123,17 +123,27 @@ body {
 
 .credit {
     position: absolute;
-    width: 69%;
+    width: 50%;
     left: 12vw;
-    top: 1.25vw;
+    top: 9.25vw;
 }
 
-.download {
+.download {  
     position: absolute;
-    width: 69%;
-    left: 12vw;
-    top: 1.25vw;
+    width: 15%;
+    left: 34vw;
+    top: 9.25vw;
+    color: blue;
+    text-decoration: none;
 }
+
+
+.download:hover {  
+    color: darkblue;
+}
+
+.download:active {
+    color: lightblue;
 
 .title {
     margin-top: 0;
