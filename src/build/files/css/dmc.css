@@ -121,6 +121,20 @@ body {
     top: 1.25vw;
 }
 
+.credit {
+    position: absolute;
+    width: 69%;
+    left: 12vw;
+    top: 1.25vw;
+}
+
+.download {
+    position: absolute;
+    width: 69%;
+    left: 12vw;
+    top: 1.25vw;
+}
+
 .title {
     margin-top: 0;
     margin-bottom: 1vw;
