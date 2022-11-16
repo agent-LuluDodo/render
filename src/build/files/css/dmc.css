@@ -106,21 +106,23 @@ body {
     height: 14.5vw; /* input-middle height + 3.5vw */
 }
 
-.icon-png {
-  height: 10vw;
-  width: 10vw;
-}
-
 .icon {
-    
+    height: 10vw;
+    width: 10vw;
+    left: 1vw;
+    top: 1vw
 }
 
 .text {
-    
+    width: 72.25%;
+    position: absolute;
+    left: 11vw;
+    top: 0.5vw;
 }
 
-.no-margin {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+.title {
+    margin-top: 0;
+    margin-bottom: 1vw;
+    margin-left: 0;
+    margin-right: 0;
+}
