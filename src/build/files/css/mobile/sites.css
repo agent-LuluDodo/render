@@ -7,6 +7,12 @@ body {
     height: 10vh !important;
 }
 
+.logo {
+    object-fit: cover !important;
+    object-position: 0 0 !important;
+    width: 10vh !important;
+}
+
 /* Links to parts of the Website */
 .site {
     width: 95% !important;
