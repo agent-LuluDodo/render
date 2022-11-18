@@ -9,6 +9,7 @@ body {
 
 .search {
     font-size: 140% !important;
+    height: 50% !important;
     width: 50% !important;
 }
 
@@ -34,7 +35,7 @@ body {
 
 .input-content {
     top: 3vw !important;
-    font-size: 2.5vw;
+    font-size: 3vw;
 }
 
 .icon {
@@ -62,7 +63,7 @@ body {
     height: 11vw !important;
     left: 24vw !important;
     top: 7.5vw !important;
-    width: 54vw !important;
+    width: 55vw !important;
 }
 
 .credit {
