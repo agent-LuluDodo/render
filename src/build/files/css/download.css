@@ -42,6 +42,20 @@ body {
     height: 100%;
 }
 
+.search {
+    all: unset;
+    padding: 6px 10px;
+    background-color: #161C21;
+    font: 70% Calibri;
+    position: absolute;
+    z-index: 1001;
+    right: 10px;
+    top: 20%;
+    height: 42.5%;
+    width: 15%;
+    border-radius: 10px;
+}
+
 /* input */
 .input {
   position: relative;
@@ -59,6 +73,12 @@ body {
 .input-top {
     display: block;
     width: 100%;
+}
+
+.input-middle {
+    display: block;
+    width: 100%;
+    height: 8.5vw;
 }
 
 .input-bottom {
@@ -83,30 +103,20 @@ body {
     font-family: Calibri, sans-serif;
 }
 
-/* input modify */
-.input-middle {
-    display: block;
-    width: 100%;
-    
-    height: 8.5vw; /* modify */
-}
-
 .input-content {
-    margin: 0.25vw;
-    position: absolute;
-    right: 8.25%;
-    top: 12.55vw;
-    width: 82.5%;
+    top: 2vw;
+    position: relative;
+    right: -8.5%;
     text-align: left;
     color: #F0F0F0;
     font-family: Calibri, sans-serif;
     font-size: 1.5vw;
-    overflow: hidden;
-    
-    height: 12vw; /* input-middle height + 3.5vw */
+    width: 0;
+    height: 0;
 }
 
 .icon {
+    border-radius: 25%;
     position: absolute;
     height: 10vw;
     width: 10vw;
@@ -114,43 +124,64 @@ body {
     top: 1vw
 }
 
-.text {
+.title {
+    font-size: 2vw;
+    font-weight: bold;
     position: absolute;
-    width: 69%;
+    width: 58%;
     left: 12vw;
-    top: 1.25vw;
+    top: 1vw;
+    color: skyblue;
+    overflow: hidden;
+}
+
+.link {
+    font-size: 2vw;
+    text-decoration: none;
+    position: absolute;
+    display: flex;
+    align-items: end;
+    width: 2%;
+    height: calc(70px + 3.5vw);
+    left: 39vw;
+    top: -70px;
+    color: #fff;
+    opacity: 0.25;
+}
+
+.description {
+    position: absolute;
+    width: 58%;
+    height: 5.5vw;
+    left: 12vw;
+    top: 3.6vw;
+    overflow: hidden;
 }
 
 .credit {
     position: absolute;
-    width: 50%;
+    width: 43%;
     left: 12vw;
     top: 9.25vw;
     color: gray;
+    overflow: hidden;
 }
 
-.download {  
+.download {
     position: absolute;
-    width: 15%;
+    width: 13%;
     left: 34vw;
     top: 9.25vw;
     color: lightgreen;
     text-decoration: none;
+    transition: color 0.25s ease-in-out;
 }
 
-
-.download:hover {  
+.download:hover {
     color: green;
 }
 
 .download:active {
+    transition: none;
     color: lightgreen;
-}
-
-.title {
-    margin-top: 0;
-    margin-bottom: 1vw;
-    margin-left: 0;
-    margin-right: 0;
-    color: skyblue;
 }

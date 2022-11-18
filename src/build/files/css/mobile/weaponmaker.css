@@ -1,0 +1,39 @@
+/* General Stuff */
+body {
+    margin-top: calc(10vh + 10px) !important;
+}
+/* Header */
+.header {
+    height: 10vh !important;
+}
+
+/* input */
+.input {
+  width: 95% !important;
+}
+
+.input-name {
+    top: 5.25vw !important;
+    font-size: 12vw !important;
+}
+
+/* input modify */
+.input-middle {
+    height: 70vw !important; /* modify */
+}
+
+.input-content {
+    top: 25.55vw !important;
+    font-size: 5vw !important;
+    height: 73.5vw !important; /* input-middle height + 3.5vw */
+}
+
+.input-middle2 {
+    height: 6vw !important; /* modify */
+}
+
+.input-content2 {
+    top: 5.25vw !important;
+    font-size: 5vw !important;
+    height: 9.5vw !important; /* input-middle height + 4vw */
+}

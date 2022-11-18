@@ -1,0 +1,79 @@
+/* General Stuff */
+body {
+    margin-top: calc(10vh + 20px) !important;
+}
+/* Header */
+.header {
+    height: 10vh !important;
+}
+
+.search {
+    font-size: 140% !important;
+    width: 50% !important;
+}
+
+.logo {
+    object-fit: cover !important;
+    object-position: 0 0 !important;
+    width: 10vh !important;
+}
+
+/* input */
+.input {
+  width: 95% !important;
+}
+
+.input-middle {
+    height: 17vw !important;
+}
+
+.input-name {
+    top: 5.25vw !important;
+    font-size: 12vw !important;
+}
+
+.input-content {
+    top: 3vw !important;
+    font-size: 3vw;
+}
+
+.icon {
+    height: 20vw !important;
+    width: 20vw !important;
+    left: 2vw !important;
+    top: 2.5vw !important;
+}
+
+.title {
+    font-size: 4vw !important;
+    left: 24vw !important;
+    top: 2vw !important;
+    width: 50vw !important;
+}
+
+.link {
+    font-size: 4vw !important;
+    height: calc(12.5vh + 7vw) !important;
+    left: 75vw !important;
+    top: -12.5vh !important;
+}
+
+.description {
+    height: 11vw !important;
+    left: 24vw !important;
+    top: 7.5vw !important;
+    width: 54vw !important;
+}
+
+.credit {
+    width: 41%;
+    left: 24vw !important;
+    top: 19vw !important;
+    width: 40vw !important;
+}
+
+.download {
+    left: 64vw !important;
+    top: 19vw !important;
+    transition: color 0.1s ease-in-out !important;
+}
