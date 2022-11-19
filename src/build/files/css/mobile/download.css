@@ -53,6 +53,7 @@ body {
 }
 
 .link {
+    width: 2vw !important;
     font-size: 4vw !important;
     height: calc(12.5vh + 7vw) !important;
     left: 75vw !important;
@@ -67,13 +68,13 @@ body {
 }
 
 .credit {
-    width: 41%;
     left: 24vw !important;
     top: 19vw !important;
     width: 40vw !important;
 }
 
 .download {
+    width: 12.75vw !important;
     left: 64vw !important;
     top: 19vw !important;
     transition: color 0.1s ease-in-out !important;
