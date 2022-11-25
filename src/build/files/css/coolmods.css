@@ -1,0 +1,65 @@
+/* Custom Font */
+@font-face {
+    font-family: "Calibri";
+    src: url("../fonts/Calibri.woff") format("woff");
+}
+
+/* General Stuff */
+body {
+    margin: 0;
+    margin-top: 70px;
+    background-color: #161C21;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    z-index: 1000;
+    background: #2D3943;
+    color: #F0F0F0;
+    font-size: 30px;
+    box-shadow: 0 2px 4px #000000;
+    top: 0;
+    bottom: 0;
+}
+
+.logo {
+    position: absolute;
+    z-index: 1001;
+    left: 5px;
+    bottom: 0;
+    height: 100%;
+}
+
+h3 {
+    margin-left: 0.5vw;
+
+    font-family: Calibri, sans-serif;
+    font-size: 25px;
+    color: skyblue;
+    margin-bottom: 0;
+}
+
+ul {
+    margin-left: 0.5vw;
+
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    color: #F0F0F0;
+    margin-top: 2px;
+}
+
+a {
+    font-family: Calibri, sans-serif;
+    font-size: 20px;
+    color: #F0F0F0;
+    margin-top: 2px;
+    text-decoration: none;
+    transition: color 0.25s ease-in-out
+}
+
+a:hover {
+    color: lightgreen;
+}
