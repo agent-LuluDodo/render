@@ -1,0 +1,31 @@
+/* General Stuff */
+body {
+    margin-top: calc(10vh + 20px) !important;
+}
+/* Header */
+.header {
+    height: 10vh !important;
+}
+
+.logo {
+    object-fit: cover !important;
+    object-position: 0 0 !important;
+    width: 10vh !important;
+}
+
+h3 {
+    margin-left: 2vw !important;
+    font-size: 8vw !important;
+}
+
+ul {
+    margin-left: 2vw !important;
+    font-size: 4vw !important;
+    margin-top: 0.4vw !important;
+}
+
+a {
+    font-size: 4vw !important;
+    margin-top: 0.4vw !important;
+    text-decoration: none !important;
+}
