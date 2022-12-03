@@ -51,6 +51,12 @@ ul {
     margin-top: 2px;
 }
 
+.mod-icon {
+    height: 20px;
+    margin-bottom: -5px;
+    color: skyblue;
+}
+
 a {
     font-family: Calibri, sans-serif;
     font-size: 20px;

@@ -24,6 +24,11 @@ ul {
     margin-top: 0.4vw !important;
 }
 
+.mod-icon {
+    height: 4vw;
+    margin-bottom: -1vw;
+}
+
 a {
     font-size: 4vw !important;
     margin-top: 0.4vw !important;
